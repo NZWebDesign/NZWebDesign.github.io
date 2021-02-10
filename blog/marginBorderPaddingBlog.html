@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StephenS | Margin Border Padding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cagliostro"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Almarai"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+  <body>
+    <!-- #################### MAIN TITLE #######################################-->
+    <div class="container">
+      <div class="row mainHeaderBanner">
+        <div class="col-md-6">
+          <a href="../index.html"><h1>StephenS</h1></a>
+        </div>
+        <!-- #################### NAVIGATION #######################################-->
+        <div class="col-md-6">
+          <ul class="navMenu list-inline text-end">
+            <li class="navList list-inline-item">
+              <a href="../index.html">Home</a>
+            </li>
+            <li class="navList list-inline-item">
+              <a href="../blog.html">Blog </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- #################### CONTENT #######################################-->
+      <div class="row">
+        <h2>Margin, Border, and Padding</h2>
+      </div>
+      <div class="row">
+        <h3>Keeping it simple...</h3>
+      </div>
+      <hr />
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>
+              So you're well on track to becoming a web developer, but you've
+              hit a snag... What on earth is the Margin, the border, and the
+              padding? You wouldn't be the first to ask this and be mystified by
+              how it works. So here in another keeping it simple article, is
+              <em>your</em>
+              guide to get started. Margin, padding, and border can be applied
+              in your Cascading Style Sheets. (CSS)
+            </p>
+          </div>
+          <div class="col-6">
+            <img
+              class="img-fluid"
+              src="../images/bordersPaddingmarginOne.JPG"
+              alt="picture of computer desktop and developer tools"
+            />
+          </div>
+          <div class="col">
+            <p>
+              In this example, we'll use a picture of a cat, the picture itself
+              is the content. Around the content you can have padding, around
+              the padding a border, and around the border, margin.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>So... what is padding?</h3>
+            <p class="paragraphSpacing">
+              Padding is that area you never knew existed around the content
+              itself. Adding padding will create space around the content.
+            </p>
+          </div>
+          <div class="col-5">
+            <h3>And what about the border and margin?</h3>
+            <p>
+              A border works like any border you might add to your creation.
+              Borders can be solid, dotted, dashed and more. You can have a thin
+              border, or go as thick with the border as you want. Feel free to
+              change up the colours also to create the flashest border out.
+            </p>
+          </div>
+          <div class="col">
+            <p>
+              Outside of the border is the margin. It's space around the whole
+              of the content, padding, and border. Again, add as much or little
+              as you like. With both margin and padding, you can add equal
+              amounts on every side, or you can have different amounts on each
+              side.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              class="img-fluid"
+              src="../images/bordersPaddingmarginTwo.JPG"
+              alt="picture with content padding border and margin demonstrated"
+            />
+          </div>
+          <div class="col-md-6">
+            <p>
+              So you've added your margin, a bit of padding, and a solid border,
+              but it doesn't quite look like you wanted? A great tool to use in
+              your browser to figure out what's going on is the Developer Tools.
+              Every browser will have this available, just google search the
+              shortcut to open it for the browser you're using. <br /><br />
+              I'm using Firefox, and the shorcut is Shift+Ctrl+C. In my Dev
+              Tools I click on the Inspector tab, and click the text of the
+              image – 'img'. Further down under the 'Layout' tab you'll see the
+              'Box Model'. <br /><br />
+              You can hover your mouse over this, and it will highlight
+              different parts of your image, padding, margin, and border in your
+              webpage. From there you'll be able to see exactly what's going on.
+              Within the Box Model, you can actually click on the numbers, your
+              40px for example, change it, and see it instantly update on your
+              webpage. But remember, if you like your changes, don't forget to
+              update it in your actual code!
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <img
+            class="img-fluid"
+            src="../images/bordersPaddingmarginThree.JPG"
+            alt="picture of developer tools in firefox and the box model diagram"
+          />
+        </div>
+
+        <div class="row">
+          <div class="col-md">
+            <p>
+              As you move your mouse pointer over the Box Model, you will see
+              the corresponding parts of the web page become highlighted.
+            </p>
+            <img
+              class="img-fluid"
+              src="../images/bordersPaddingMarginFour.JPG"
+              alt="picture showing box model and how it interacts with your web page"
+            />
+          </div>
+          <div class="col-md">
+            <p>
+              Ready to try some different border styles? Here's a list of what
+              you could add to style up your page...
+            </p>
+            <ul>
+              <li>dotted - Defines a dotted border</li>
+              <li>dashed - Defines a dashed border</li>
+              <li>solid - Defines a solid border</li>
+              <li>double - Defines a double border</li>
+              <li>
+                groove - Defines a 3D grooved border. The effect depends on the
+                border-color value
+              </li>
+              <li>
+                ridge - Defines a 3D ridged border. The effect depends on the
+                border-color value
+              </li>
+              <li>
+                inset - Defines a 3D inset border. The effect depends on the
+                border-color value
+              </li>
+              <li>
+                outset - Defines a 3D outset border. The effect depends on the
+                border-color value
+              </li>
+              <li>none - Defines no border</li>
+              <li>hidden - Defines a hidden border</li>
+              <p>
+                This list is taken from W3 Schools Website, a great resource...
+                check it out
+                <a href="https://www.w3schools.com" target="_blank">W3 Schools Website</a>
+              </p>
+            </ul>
+          </div>
+        </div>
+
+          <div class="row">
+            <div class="col-lg">
+              <h3>padding:20px 30px 10px 10px;</h3>
+              <p>
+                So now you're confident adding padding and margin, here's a few
+                other things to note. You can add padding and margin to all four
+                sides. If each side is different you will have four values, one
+                for each side, and it is applied clockwise. But if the value is
+                to be the same on all sides, you only need one number. If you
+                wanted a margin of 20px at the top and bottom, and 10px on the
+                left and right, you could write margin: 20px 10px;
+                <br /><br />
+                For more on margins check out
+                <a
+                  href="https://www.w3schools.com/css/css_margin.asp"
+                  target="_blank"
+                  >W3 Schools Margins</a
+                >
+              </p>
+            </div>
+
+            <div class="col-lg">
+              <img
+                class="img-fluid"
+                src="../images/bordersPaddingMarginFive.JPG"
+                alt="code being applied in Visual Studio code editor to margin and padding"
+              />
+            </div>
+
+            <div class="col-lg">
+              <h3>Congratulations - you've made it to expert level!</h3>
+              <p>
+                Now that you've mastered margin, padding, and border, the world
+                is yours to conquer. Actually, you're probably still mystified
+                by it all, but the best advice is to have a go playing around
+                with it, try different numbers for the values and watch your
+                image, and border move all over the page! -- experiment and
+                don't worry, you won't break it!!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- #################### FOOTER #######################################-->
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center footer">&copy;2021 StephenS</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
