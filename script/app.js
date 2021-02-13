@@ -8,11 +8,11 @@ $(document).ready(function(){
 */
 
 $(document).ready(function(){
-      $("#photoFade").fadeIn(2500);
+      $("#photoFade").fadeIn(3000);
     });
 
     $(document).ready(function(){
-        $("#blogFade").fadeIn(1500);
+        $("#blogFade").fadeIn(2000);
       });
 
     
