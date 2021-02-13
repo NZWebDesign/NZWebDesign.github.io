@@ -1,7 +1,9 @@
-* {
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Almarai", Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: rgb(73, 73, 73);
@@ -65,14 +67,49 @@ h4 {
   font-size: 2vh;
 }
 
+.headerPadding {
+  padding-right: 5%;
+}
+
+#photoFade {
+  display: none;
+}
+
+#blogFade {
+  display: none;
+}
+
 .mainPhoto {
   padding-bottom: 3%;
 }
-/*
-.paragraphSpacing {
-  padding: 4vh 2vh;
+
+/* ####### experimenting with bootsrap grid with the below boxes #####*/
+.box1 {
+  background-color: rgb(219, 224, 231);
+  height: 470px;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-*/
+
+.box2 {
+  background-color: rgb(235, 223, 205);
+  height: 470px;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box3 {
+  background-color: rgb(182, 217, 223);
+  height: 470px;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer {
   padding: 2%;
 }
