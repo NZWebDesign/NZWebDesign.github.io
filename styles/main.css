@@ -86,26 +86,29 @@ h4 {
 /* ####### experimenting with bootsrap grid with the below boxes #####*/
 .box1 {
   background-color: rgb(219, 224, 231);
-  height: 470px;
+  height: auto;
   padding: 5%;
   display: flex;
+
   align-items: center;
   justify-content: center;
 }
 
 .box2 {
   background-color: rgb(235, 223, 205);
-  height: 470px;
+  height: auto;
   padding: 5%;
   display: flex;
+
   align-items: center;
   justify-content: center;
 }
 .box3 {
   background-color: rgb(182, 217, 223);
-  height: 470px;
+  height: auto;
   padding: 5%;
   display: flex;
+
   align-items: center;
   justify-content: center;
 }
@@ -113,19 +116,38 @@ h4 {
 .footer {
   padding: 2%;
 }
+
+.mobileHeader {
+  display: none;
+}
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 @media only screen and (max-width: 600px) {
   .box1 {
-    height: 800px;
+    height: auto;
   }
 }
 @media only screen and (max-width: 600px) {
   .box2 {
-    height: 600px;
+    height: auto;
   }
 }
 @media only screen and (max-width: 600px) {
   .box3 {
-    height: 600px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h3 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mobileHeader {
+    display: flex;
+    text-decoration: solid;
+    color: rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
   }
 }
