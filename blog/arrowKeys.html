@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StephenS |</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cagliostro"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Almarai"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../arrowKey.js"></script>
+  </head>
+  <body>
+    <!-- #################### MAIN TITLE #######################################-->
+    <div class="container">
+      <div class="row mainHeaderBanner">
+        <div class="col-md-6">
+          <a href="../index.html"><h1>StephenS</h1></a>
+        </div>
+        <!-- #################### NAVIGATION #######################################-->
+        <div class="col-md-6">
+          <ul class="navMenu list-inline text-end">
+            <li class="navList list-inline-item">
+              <a href="../index.html">Home</a>
+            </li>
+            <li class="navList list-inline-item">
+              <a href="../blog.html">Blog </a>
+            </li>
+            <li class="navList list-inline-item">
+              <a href="../gallery.html">Gallery </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- #################### Blog Title #######################################-->
+
+      <div class="row">
+        <h2>Exploring some JavaScript...</h2>
+      </div>
+
+      <hr />
+      <!-- #################### CONTENT #######################################-->
+
+      <div class="row">
+        <div class="col-lg-12 box3">
+          <h3 class="headerPadding">Change the photos...</h3>
+          <p>
+            <span class="mobileHeader">Change the photos ...</span>
+            I wanted to experiment with some of the JavaScript from the carnival
+            so I decided to create a page that would allow the user to select
+            from three different type of photos, - Planes, Scenery, and
+            Seagulls! The <em>UP</em> and <em>DOWN</em> arrow keys select from
+            this main menu, and the <em>LEFT</em> and <em>RIGHT</em> arrow keys
+            change the photo. <br />
+            <br />
+            Have a try changing the "change the photo" box below with the arrow
+            keys!
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 box2">
+          <img
+            id="photo"
+            class="img-fluid"
+            src="../images/changePic.JPG"
+            alt="various photos"
+            style="height: auto"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 box3">
+          <h3 class="headerPadding">
+            Stop the page scrolling with the arrow keys!!...
+          </h3>
+          <p>
+            <span class="mobileHeader"
+              >Stop the page scrolling with the arrow keys!!....</span
+            >
+            One thing I discovered was that while using the up and down arrow
+            keys, the page still scrolled up and down, and this was annoying so
+            I needed to stop that. A quick google search turned up some code at
+            Stack Overflow. It seems to have done the trick!! ... see the code
+            below...
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 box2">
+          <img
+            class="img-fluid"
+            src="../images/preventScroll.JPG"
+            alt="photo of code"
+            style="height: auto"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 box3">
+          <h3 class="headerPadding">Photo editing...</h3>
+          <p>
+            <span class="mobileHeader">Photo editing...</span>
+            I found Pixillion Image Converter was useful to batch convert photos
+            to have a longest size of 700 pixels. The photos in their original
+            size would slow page loading times, so needed to be resized.
+            Pixillion Image Converter was a free download, and was easy to use,
+            provided a good UX for this task with batch conversion done in only
+            a few clicks.
+            <br /><br />
+            I also discovered you can rename multiple files, which was useful as
+            I wanted the files to have the same name apart from the index
+            number. In the file explorer folder, if you click on a file and up
+            the top select rename - name your file, and hit 'tab' and all the
+            files will have the same name apart from a different number .
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 box2">
+          <img
+            class="img-fluid"
+            src="../images/demo.JPG"
+            alt="photo of code"
+            style="height: 700px"
+          />
+        </div>
+      </div>
+
+      <!-- #################### FOOTER #######################################-->
+      <div class="row">
+        <div class="col-md-12">
+          .
+          <p class="text-center footer">&copy;2021 StephenS</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
