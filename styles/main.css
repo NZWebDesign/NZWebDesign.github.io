@@ -61,10 +61,12 @@ h3 {
   padding-bottom: 1vh;
 }
 
+/*h4 is the same as h3 to sort out that problem with the mobile headers flex 
+thingameejigwhatsit.... which is fixed from the second bootcamp blog */
 h4 {
   color: rgb(112, 111, 111);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 
 .headerPadding {
@@ -113,6 +115,28 @@ h4 {
   justify-content: center;
 }
 
+.galleryContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(250, 250, 250);
+}
+
+.galleryBox {
+  background-color: rgb(250, 250, 250);
+  padding: 2vh;
+  margin: 1vh;
+  flex-shrink: 1;
+}
+
+.inner {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
 .footer {
   padding: 2%;
 }
@@ -121,6 +145,7 @@ h4 {
   display: none;
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
 @media only screen and (max-width: 600px) {
   .box1 {
     height: auto;
@@ -142,6 +167,7 @@ h4 {
     display: none;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .mobileHeader {
     display: flex;
