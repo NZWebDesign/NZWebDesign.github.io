@@ -83,7 +83,7 @@ third width at 800px and then quarter width at 1024px or similar maybe? */
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .galleryBox {
     background-color: rgb(224, 241, 203);
     /* width: 400px; */
