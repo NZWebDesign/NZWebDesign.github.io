@@ -2,7 +2,6 @@ body {
   background-color: rgb(250, 250, 250);
 }
 
-
 .mainHeaderBanner {
   padding-top: 4%;
 }
@@ -50,23 +49,60 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: center; */
   background-color: rgb(250, 250, 250);
-  /* flex-shrink: 1; */
-  max-width: 1024px;
+  max-width: 1300px;
   margin: 0 auto;
-  
 }
 
 .galleryBox {
   background-color: rgb(250, 250, 250);
-  width: 400px;
+  width: 100%;
   margin: 5px;
   flex-grow: 1;
   flex-shrink: 1;
-  flex:1 1 calc(33% - 10px);
+  flex: 1 1 calc(25% - 10px);
 }
 
-.galleryImage{
+.galleryImage {
   width: 100%;
+}
+
+/*What I'd recommend is having a look at your boxes on your gallery page and create media queries for these. 
+You could set the width of .galleryBox to 100% by default, half width at maybe 600px, 
+third width at 800px and then quarter width at 1024px or similar maybe? */
+
+@media only screen and (max-width: 1000px) {
+  .galleryBox {
+    background-color: rgb(250, 250, 250);
+    /* width: 400px; */
+    width: 100%;
+    margin: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 1 1 calc(33% - 10px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .galleryBox {
+    background-color: rgb(250, 250, 250);
+    /* width: 400px; */
+    width: 100%;
+    margin: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 1 1 calc(50% - 10px);
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .galleryBox {
+    background-color: rgb(250, 250, 250);
+    /* width: 400px; */
+    width: 100%;
+    margin: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 1 1 calc(100% - 10px);
+  }
 }
