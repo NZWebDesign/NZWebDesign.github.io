@@ -115,7 +115,6 @@ h4 {
   justify-content: center;
 }
 
-
 .inner {
   max-width: 1200px;
   width: 100%;
@@ -132,7 +131,7 @@ h4 {
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .box1 {
     height: auto;
   }
@@ -146,20 +145,4 @@ h4 {
   .box3 {
     height: auto;
   }
-}
-/*
-@media only screen and (max-width: 600px) {
-  h3 {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .mobileHeader {
-    display: flex;
-    text-decoration: solid;
-    color: rgb(34, 34, 34);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
-  }
-}
+} */
