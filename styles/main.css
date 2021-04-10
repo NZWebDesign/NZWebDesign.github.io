@@ -140,6 +140,12 @@ h4 {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .headerPadding {
+    display: none;
+  }
+}
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 /* @media only screen and (max-width: 600px) {
